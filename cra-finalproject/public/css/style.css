@@ -1,0 +1,1308 @@
+body {
+    background: beige;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+}
+
+.links {
+    text-decoration: none;
+    color: #666666;
+    margin-right: 21px;
+    font-size: 27px;
+}
+
+.links:hover {
+    color: #fbb604;
+}
+
+.links:focus {
+    color: #fbb604;
+}
+
+.information {
+    display: flex;
+    font-size: 32px;
+}
+
+.paragraphLink {
+    color: #fbb604;
+}
+
+.slide-container {
+    width: 100%;
+    margin: auto; 
+}
+
+.slide-container h3 {
+    text-align: center; 
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    width: 100%;
+}
+
+.each-fade h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}
+
+.project-image2 {
+    width: 963px;
+    margin-top: 42px;
+}
+
+.Blog {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blog-title {
+    text-decoration: underline;
+    margin-top: 36px;
+}
+
+.blog-title, .blog-post {
+    margin-left: 20px;
+    width: 744px;
+}
+
+.grey-box {
+    height: 250px;
+    width: 370px;
+}
+
+.contact a {
+    color: #fbb604;
+}
+
+.contact-info {
+    text-decoration: underline;
+}
+
+.contact p {
+    font-size: 18px
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.submit-button {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 320px) {
+    .navbar {
+        margin-left: 39px;
+    }
+
+    nav {
+        margin-top: 44px;
+        margin-left: 18px;
+    }
+
+    .logo {
+        width: 184px;
+        border: 4px solid #fbb604;
+        border-radius: 153px;
+    }
+    
+    .paragraph {
+        margin-left: 15px;
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .promoImg {
+        height: 291px;
+        margin-right: 15px;
+    }
+
+    .subcontent1 {
+        width: 315px;
+        margin-left: 8px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .subcontent2 {
+        position: absolute;
+        left: 333px;
+        top: 607px;
+        width: 315px;
+        font-size: 13px;
+    }
+
+    .subcontent3 {
+        position: absolute;
+        left: 653px;
+        top: 607px;
+        width: 315px;
+        font-size: 13px;
+    }
+
+    .choice {
+        text-align: center;
+        margin-top: 74px;
+        font-size: 35px;
+    }
+
+    .choice-margin {
+        margin-bottom: 140px;
+    }
+
+    .img1 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+        margin-right: 50px;
+        margin-left: 25px;
+    }
+    
+    .img2, .img3 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+        margin-right: 50px;
+    }
+
+    .img4 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+    }
+
+    .trustworthy {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 1220px;
+        left: 47px;
+        width: 130px;
+        padding: 15px;
+        font-size: 11px;
+    }
+
+    .local {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 1220px;
+        left: 289px;
+        width: 130px;
+        padding: 15px;
+        font-size: 11px;
+    }
+
+    .guaranteed {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 1220px;
+        left: 528px;
+        width: 130px;
+        padding: 15px;
+        font-size: 11px;
+    }
+
+    .experienced {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 1220px;
+        left: 768px;
+        width: 130px;
+        padding: 15px;
+        font-size: 11px;
+    }
+
+    .lrnMore {
+        color: white; 
+        box-shadow: 3px 5px 31px grey; 
+        background: #fbb604; 
+        border-radius: 4px; 
+        padding: 10px 20px; 
+        margin-left: 392px; 
+        margin-bottom: 55px; 
+        border: none; 
+        cursor: pointer
+    }
+    
+    .each-slide div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        height: 490px;
+    }
+
+    .about {
+        width: 552px;
+        margin-left: 18px;
+        margin-bottom: 50px;
+    }
+
+    .head {
+        width: 419px;
+        position: absolute;
+        left: 561px;
+        top: 282px;
+    }
+
+    .about ul li {
+        font-size: 28px;
+        margin-left: 55px;
+    }
+
+    .construction-img {
+        width: 517px;
+    }
+
+    .handshake-img {
+        width: 396px;
+    }
+
+    .dotLine {
+        margin-top: -30px;
+    }
+
+    .offerings {
+        margin-top: 80px;
+    }
+
+    .about-paragraph {
+        margin: 30px 30px;
+        font-size: 25px;
+        padding: 10px;
+        line-height: 50px;
+    }
+
+    .font-size {
+        font-size: 15px;
+    }
+
+    .img-size {
+        margin-top: 50px;
+        height: 247px;
+        width: 398px;
+        margin-right: 50px;
+    }
+
+    .margin-spacing {
+        margin-left: 63px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 24px;
+    }
+
+    .contact div {
+        font-size: 14px;
+        border: 1px solid #666666;
+        padding: 10px;
+        box-shadow: 5px 10px #666666;
+        width: 367px;
+    }
+
+    .copyright {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .review {
+        font-size: 15px;
+    }
+
+    #feedback {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .submit-button button {
+        border: none;
+        background: #fbb604;
+        font-size: 20px;
+        padding: 5px 50px 5px 50px;
+    }
+}
+
+@media (min-width: 375px) {
+    .promoImg {
+        height: 291px;
+        margin-right: 15px;
+    }
+
+    .trustworthy {
+        top: 1190px;
+    }
+
+    .local {
+        top: 1190px;
+    }
+
+    .guaranteed {
+        top: 1190px;
+    }
+
+    .experienced {
+        top: 1190px;
+    }
+
+    #feedback {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 425px) {
+    nav {
+        margin-top: 49px;
+    }
+
+    .paragraph {
+        font-size: 19px;
+    }
+
+    .subcontent1 {
+        width: 290px;
+        margin-left: 8px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    .promoImg {
+        height: 291px;
+        margin-right: 15px;
+    }
+
+    .trustworthy {
+        top: 1174px;
+    }
+
+    .local {
+        top: 1174px;
+    }
+
+    .guaranteed {
+        top: 1174px;
+    }
+
+    .experienced {
+        top: 1174px;
+    }
+}
+
+/* @media (min-width: 767px) {
+    .navbar {
+        margin-left: 27px;
+    }
+
+    .links {
+        text-decoration: none;
+        color: #666666;
+        margin-right: 21px;
+        font-size: 19px;
+    }
+
+    .logo {
+        width: 146px;
+        border: 4px solid #fbb604;
+        border-radius: 153px;
+    }
+
+    nav {
+        margin-top: 37px;
+        margin-left: 18px;
+    }
+
+    .promoImg {
+        height: 220px;
+        margin-right: 15px;
+    }
+
+    .paragraph {
+        margin-left: 15px;
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .dotLine {
+        margin-top: -21px;
+    }
+
+    .subcontent1 {
+        width: 229px;
+        margin-left: 8px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+
+    .subcontent2 {
+        position: absolute;
+        left: 261px;
+        top: 476px;
+        width: 229px;
+        font-size: 10px;
+    }
+
+    .subcontent3 {
+        position: absolute;
+        left: 506px;
+        top: 476px;
+        width: 229px;
+        font-size: 10px;
+    }
+
+    .choice {
+        text-align: center;
+        margin-top: 74px;
+        font-size: 29px;
+    }
+
+    .img1 {
+        width: 150px;
+        box-shadow: 3px 5px 31px grey;
+        height: 135px;
+        margin-right: 20px;
+        margin-left: 42px;
+    }
+
+    .img2, .img3 {
+        width: 150px;
+        box-shadow: 3px 5px 31px grey;
+        height: 135px;
+        margin-right: 20px;
+    }
+
+    .img4 {
+        width: 150px;
+        box-shadow: 3px 5px 31px grey;
+        height: 135px;
+    }
+
+    .trustworthy {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 897px;
+        left: 58px;
+        width: 102px;
+        padding: 15px;
+        font-size: 9px;
+    }
+
+    .local {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 897px;
+        left: 229px;
+        width: 102px;
+        padding: 15px;
+        font-size: 9px;
+    }
+
+    .guaranteed {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 897px;
+        left: 400px;
+        width: 102px;
+        padding: 15px;
+        font-size: 9px;
+    }
+
+    .experienced {
+        background: white;
+        border-radius: 7px;
+        position: absolute;
+        top: 897px;
+        left: 568px;
+        width: 102px;
+        padding: 15px;
+        font-size: 9px;
+    }
+
+    .lrnMore {
+        color: white;
+        box-shadow: 3px 5px 31px grey;
+        background: #fbb604;
+        border-radius: 4px;
+        padding: 10px 20px;
+        margin-left: 262px;
+        margin-bottom: 55px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .about {
+        width: 350px;
+        margin-left: 18px;
+        margin-bottom: 50px;
+    }
+
+    .construction-img {
+        width: 334px;
+    }
+
+    .head {
+        width: 272px;
+        position: absolute;
+        left: 447px;
+        top: 282px;
+    }
+
+    .handshake-img {
+        width: 280px;
+    }
+
+    .offerings {
+        margin-top: 80px;
+        font-size: 31px;
+    }
+
+    .img-size {
+        margin-top: 50px;
+        height: 200px;
+        width: 285px;
+        margin-right: 50px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 24px;
+    }
+
+    .contact div {
+        margin-right: 39px;
+        font-size: 10px;
+        border: 1px solid #666666;
+        padding: 10px;
+        box-shadow: 5px 10px #666666;
+        width: 179px;
+    }
+
+    .contact a {
+        color: #fbb604;
+        font-size: 15px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+
+    .name {
+        padding-right: 21.9px;
+    }
+} */
+
+@media (min-width: 768px) {
+    .subcontent1 {
+        width: 290px;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .subcontent2 {
+        left: 333px;
+        top: 569px;
+        width: 312px;
+        font-size: 12px;
+    }
+
+    .subcontent3 {
+        left: 653px;
+        top: 569px;
+        width: 315px;
+        font-size: 12px;
+    }
+
+    .trustworthy {
+        top: 1032px;
+        left: 47px;
+        width: 130px;
+        font-size: 11px;
+    }
+
+    .local {
+        top: 1032px;
+        width: 130px;
+        left: 289px;
+        font-size: 11px;
+    }
+
+    .guaranteed {
+        top: 1032px;
+        width: 130px;
+        left: 528px;
+        font-size: 11px;
+    }
+
+    .experienced {
+        top: 1032px;
+        width: 130px;
+        left: 768px;
+        font-size: 11px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .contact div {
+        font-size: 11px;
+        width: 233px;
+    }
+
+    .contact p {
+        font-size: 19px;
+    }
+
+    .contact a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+        margin-left: 55px;
+    }
+
+    .paragraph {
+        margin-left: 15px;
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .promoImg {
+        height: 291px;
+        margin-right: 15px;
+    }
+
+    nav {
+        margin-top: 50px;
+        margin-left: 18px;
+    }
+
+    .subcontent1 {
+        width: 290px;
+        margin-left: 8px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    .subcontent2 {
+        left: 350px;
+        top: 561px;
+        font-size: 12px;
+    }
+
+    .subcontent3 {
+        width: 290px;
+        left: 695px;
+        top: 561px;
+        font-size: 12px;
+    }
+
+    .img1 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+        margin-right: 50px;
+        margin-left: 45px;
+    }
+    
+    .img2, .img3 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+        margin-right: 50px;
+    }
+
+    .img4 {
+        width: 190px;
+        box-shadow: 3px 5px 31px grey;
+        height: 175px;
+    }
+
+    .trustworthy {
+        top: 1017px;
+        left: 67px;
+        width: 129px;
+        font-size: 11px;
+    }
+
+    .local {
+        top: 1017px;
+        left: 309px;
+        width: 129px;
+        font-size: 11px;
+    }
+
+    .guaranteed {
+        top: 1017px;
+        left: 548px;
+        width: 129px;
+        font-size: 11px;
+    }
+
+    .experienced {
+        top: 1017px;
+        left: 788px;
+        width: 129px;
+        font-size: 11px;
+    }
+    
+    .head {
+        width: 419px;
+        position: absolute;
+        left: 606px;
+        top: 282px;
+    }
+
+    .lrnMore {
+        margin-left: 392px;
+    }
+
+    .about {
+        width: 479px;
+        margin-left: 49px;
+        margin-bottom: 50px;
+    }
+
+    .construction-img {
+        width: 478px;
+    }
+
+    .handshake-img {
+        width: 377px;
+    }
+    
+    .img-size {
+        margin-top: 50px;
+        height: 277px;
+        width: 425px;
+        margin-right: 50px;
+    }
+    
+    .margin-spacing {
+        margin-left: 54px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 31px;
+    }
+
+    .contact div {
+        font-size: 16px;
+        width: 271px;
+    }
+
+    .contact p {
+        font-size: 24px;
+    }
+
+    .contact a {
+        font-size: 23px;
+    }
+
+    .name {
+        padding-right: 46.9px;
+    }
+    
+    #feedback {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .navbar {
+        margin-left: 108px;
+    }
+    
+    nav {
+        margin-top: 80px;
+        margin-left: 28px;
+    }
+    
+    .logo {
+        width: 315px;
+    }
+    
+    .links {
+        margin-right: 30px;
+        font-size: 32px;
+    }
+    
+    .paragraph {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    
+    .subcontent1 {
+        width: 352px;
+        margin-left: 92px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    
+    .subcontent2 {
+        left: 550px;
+        top: 642.5px;
+        width: 352px;
+        font-size: 15px;
+    }
+    
+    .subcontent3 {
+        left: 1000px;
+        top: 795px;
+        top: 642.5px;
+        width: 352px;
+        font-size: 15px;
+    }
+
+    .choice-margin {
+        margin-bottom: 205px;
+    }
+
+    .img1 {
+        width: 260px;
+        height: 215px;
+        margin-left: 107px;
+    }
+    
+    .img2, .img3 {
+        width: 260px;
+        height: 215px;
+    }
+
+    .img4 {
+        width: 260px;
+        height: 215px;
+    }
+
+    .trustworthy {
+        top: 1170px;
+        left: 135px;
+        width: 188px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .local {
+        top: 1170px;
+        left: 445px;
+        width: 188px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .guaranteed {
+        top: 1170px;
+        left: 756px;
+        width: 188px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .experienced {
+        top: 1170px;
+        left: 1065px;
+        width: 188px;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .lrnMore {
+        color: white; 
+        box-shadow: 3px 5px 31px grey; 
+        background: #fbb604; 
+        border-radius: 4px; 
+        padding: 10px 20px; 
+        margin-left: 592px; 
+        margin-bottom: 55px; 
+        border: none; 
+        cursor: pointer
+    }
+    
+    .about {
+        width: 552px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+    
+    .head {
+        left: 900px;
+        top: 367px;
+    }
+
+    .img-size {
+        margin-top: 50px;
+        height: 305px;
+        width: 500px;
+        margin-right: 50px;
+    }
+    
+    .about ul li {
+        font-size: 28px;
+        margin-left: 55px;
+    }
+    
+    .construction-img {
+        width: 517px;
+    }
+    
+    .handshake-img {
+        width: 396px;
+    }
+    
+    .dotLine {
+        margin-top: -30px;
+    }
+    
+    .offerings {
+        margin-top: 80px;
+    }
+    
+    .about-paragraph {
+        margin: 30px 30px;
+        font-size: 25px;
+        padding: 10px;
+        line-height: 50px;
+    }
+
+    .margin-spacing {
+        margin-left: 191px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 71px;
+    }
+
+    .contact p {
+        font-size: 30px;
+    }
+
+    .contact a {
+        font-size: 31px;
+    }
+    
+    .contact div {
+        font-size: 20px;
+        width: 358px;
+    }
+
+    .name {
+        padding-right: 46.9px;
+    }
+}
+
+@media (min-width: 1536px) {
+    nav {
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+    
+    .links {
+        margin-right: 49px;
+        font-size: 32px;
+    }
+    
+    .subcontent1 {
+        margin-left: 110px;
+    }
+    
+    .subcontent2 {
+        left: 593px;
+    }
+    
+    .subcontent3 {
+        left: 1050px;
+    }
+
+    .img1 {
+        width: 300px;
+        height: 245px;
+        margin-left: 74px;
+    }
+    
+    .img2, .img3 {
+        width: 300px;
+        height: 245px;
+    }
+
+    .img4 {
+        width: 300px;
+        height: 245px;
+    }
+
+    .trustworthy {
+        top: 1206px;
+        left: 106px;
+        width: 219px;
+        font-size: 16px;
+    }
+
+    .local {
+        top: 1206px;
+        left: 457px;
+        width: 219px;
+        font-size: 16px;
+    }
+
+    .guaranteed {
+        top: 1206px;
+        left: 807px;
+        width: 219px;
+        font-size: 16px;
+    }
+
+    .experienced {
+        top: 1206px;
+        left: 1157px;
+        width: 219px;
+        font-size: 16px;
+    }
+
+    .lrnMore {
+        margin-left: 642px; 
+    }
+
+    .font-size {
+        font-size: 24px;
+    }
+
+    .img-size {
+        margin-top: 50px;
+        height: 305px;
+        width: 500px;
+        margin-right: 50px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
+    .contact div {
+        font-size: 20px;
+    }
+
+    .name {
+        padding-right: 50.9px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .navbar {
+        margin-left: 392px;
+    }
+    
+    nav {
+        margin-top: 96px;
+        margin-left: 40px;
+    }
+    
+    .logo {
+        width: 408px;
+    }
+    
+    .links {
+        font-size: 51px;
+    }
+    
+    .paragraph {
+        font-size: 45px;
+        line-height: 2;
+        margin-top: 8px;
+    }
+    
+    .promoImg {
+        height: 560px;
+        margin-right: 15px;
+    }
+    
+    .subcontent1 {
+        width: 518px;
+        margin-left: 375px;
+        font-size: 23px;
+    }
+    
+    .subcontent2 {
+        left: 1082px;
+        top: 991.5px;
+        width: 518px;
+        font-size: 23px;
+    }
+    
+    .subcontent3 {
+        left: 1752px;
+        top: 991.5px;
+        width: 518px;
+        font-size: 23px;
+    }
+
+    .choice {
+        font-size: 78px;
+    }
+
+    .choice-margin {
+        margin-bottom: 250px;
+    }
+
+    .img1 {
+        width: 405px;
+        height: 315px;
+        margin-left: 385px;
+    }
+    
+    .img2, .img3 {
+        width: 405px;
+        height: 315px;
+    }
+
+    .img4 {
+        width: 405px;
+        height: 315px;
+    }
+
+    .trustworthy {
+        top: 1846px;
+        left: 441px;
+        width: 282px;
+        font-size: 22px;
+    }
+
+    .local {
+        top: 1846px;
+        left: 900px;
+        width: 282px;
+        font-size: 22px;
+    }
+
+    .guaranteed {
+        top: 1846px;
+        left: 1354px;
+        width: 282px;
+        font-size: 22px;
+    }
+    
+    .experienced {
+        top: 1846px;
+        left: 1805px;
+        width: 282px;
+        font-size: 22px;
+    }
+    
+    .lrnMore {
+        margin-left: 1122px; 
+        margin-bottom: 80px; 
+        font-size: 25px;
+    }
+    
+    .about {
+        width: 855px;
+        margin-left: 630px;
+        font-size: 32px;
+    }
+    
+    .head {
+        width: 561px;
+        left: 1500px;
+        font-size: 32px;
+    }
+    
+    .font-size {
+        font-size: 35px;
+    }
+    
+    .img-size {
+        margin-top: 50px;
+        height: 415px;
+        width: 620px;
+        margin-right: 50px;
+    }
+
+    .margin-spacing {
+        margin-left: 603px;
+    }
+    
+    .contact {
+        display: inline-block;
+        margin-top: 80px;
+        margin-left: 200px;
+    }
+    
+    .contact div {
+        font-size: 20px;
+        width: 557px;
+    }
+
+    .name {
+        padding-right: 118.9px;
+    }
+
+    .copyright {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .review {
+        font-size: 40px;
+    }
+    
+    #feedback {
+        font-size: 27px;
+    }
+    
+    .submit-button button {
+        font-size: 25px;
+    }
+
+    .each-slide div {
+        height: 917px;
+    }
+}
